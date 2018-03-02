@@ -14,7 +14,7 @@ public class AppTest {
   public void verifyHomepageTitle() {
        
       System.out.println("launching Chrome browser"); 
-      System.setProperty("webdriver.chrome.driver","D:\\SeleniumJars\\selenium-java-3.4.0\\chromedriver.exe");
+      System.setProperty("webdriver.chrome.driver","E:\\Desktop\\SelniumJars_Driver\\chromedriver.exe");
       driver = new ChromeDriver();
       driver.get(baseUrl);
       String expectedTitle = "Welcome: Mercury Tours";
